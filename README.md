@@ -18,3 +18,7 @@ KAFKA_MQTT_PRODUCER_SECURITY_PROTOCOL: SASL_SSL
 KAFKA_MQTT_PRODUCER_SASL_MECHANISM: PLAIN
 KAFKA_MQTT_PRODUCER_SASL_JAAS_CONFIG: org.apache.kafka.common.security.plain.PlainLoginModule required username="**" password="**";
 ```
+
+
+### Support
+reachout to ortizmark905@gmail.com if you need help or want to develop related to this. 
