@@ -39,15 +39,15 @@ spec:
         image: confluentinc/cp-kafka-mqtt
         env:
         - name: KAFKA_MQTT_BOOTSTRAP_SERVERS
-          value: pkc-4vndj.australia-southeast1.gcp.confluent.cloud:9092
+          value: ""
         - name: KAFKA_MQTT_TOPIC_REGEX_LIST
-          value: nextgen.poc.hvac_sensor_data.event.hip:nextgen
+          value: kafka-topic:mqtt
         - name: KAFKA_MQTT_LISTENERS
           value: 0.0.0.0:1883
         - name: KAFKA_MQTT_PRODUCER_CLIENT_ID
           value: api-1-user
         - name: KAFKA_MQTT_PRODUCER_GROUP_ID
-          value: scg
+          value: mortiz
         - name: KAFKA_MQTT_PRODUCER_SECURITY_PROTOCOL
           value: SASL_SSL
         - name: KAFKA_MQTT_PRODUCER_SASL_MECHANISM

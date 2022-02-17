@@ -3,13 +3,13 @@ services:
   cp-kafka-mqtt:
     image: confluentinc/cp-kafka-mqtt:latest
     environment:
-      KAFKA_MQTT_BOOTSTRAP_SERVERS: pkc-4vndj.australia-southeast1.gcp.confluent.cloud:9092
-      KAFKA_MQTT_TOPIC_REGEX_LIST: nextgen.poc.hvac_sensor_data.event.hip:nextgen
+      KAFKA_MQTT_BOOTSTRAP_SERVERS: ""
+      KAFKA_MQTT_TOPIC_REGEX_LIST: kafka-topic:mqtt
       KAFKA_MQTT_KEY_DESERIALIZER: org.apache.kafka.common.serialization.StringDeserializer
       KAFKA_MQTT_VALUE_DESERIALIZER: org.apache.kafka.common.serialization.StringDeserializer
       KAFKA_MQTT_LISTENERS: 0.0.0.0:1883
-      KAFKA_MQTT_PRODUCER_CLIENT_ID: nextgen.cnd
-      KAFKA_MQTT_PRODUCER_GROUP_ID: scg
+      KAFKA_MQTT_PRODUCER_CLIENT_ID: pos.cnd
+      KAFKA_MQTT_PRODUCER_GROUP_ID: mortiz
       KAFKA_MQTT_PRODUCER_SECURITY_PROTOCOL: SASL_SSL
       KAFKA_MQTT_PRODUCER_SASL_MECHANISM: PLAIN
       KAFKA_MQTT_PRODUCER_SASL_JAAS_CONFIG: org.apache.kafka.common.security.plain.PlainLoginModule required username="**" password="**";
