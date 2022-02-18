@@ -3,7 +3,8 @@
 This pos provides basic solution to ingest data into mqtt as proxy to kafka confluent using an existing docker image.
 
 ### Stack
-![Docker](https://img.shields.io/badge/docker-%2357A143.svg?style=for-the-badge&logo=docker&logoColor=white) ![Google_Cloud_Platform](https://img.shields.io/badge/Google_Cloud_Platform-%23000000.svg?style=for-the-badge&logo=google-cloud&logoColor=#FFD700) ![Buildkite](https://img.shields.io/badge/Buildkite-%23000000.svg?style=for-the-badge&logo=Buildkite&logoColor=#FFD700)
+
+![Docker](https://img.shields.io/badge/docker-%2357A143.svg?style=for-the-badge&logo=docker&logoColor=white) ![Google](https://img.shields.io/badge/kafka-%2357A143.svg?style=for-the-badge&logo=kafka&logoColor=white) ![MQTT](https://img.shields.io/badge/mqtt-%2357A143.svg?style=for-the-badge&logo=mqtt&logoColor=white) 
 
 ### Config
 ```
